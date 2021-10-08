@@ -1,0 +1,71 @@
+.square{
+  width: 800px;	height: 500px; /* Размеры */
+  background: white; /* Цвет фона */
+  outline: 10px solid darkred; /* Чёрная рамка */
+  margin: auto;
+  margin-top: 50px;
+  text-align: center;
+}
+.block{
+  width:150px;
+  height: 150px;
+}
+.pink{
+  background: pink; /* Цвет фона */
+  outline: 4px solid red; /* Чёрная рамка */
+  margin: 50px;
+  display: inline-block;
+}
+.green{
+  background: lightgreen; /* Цвет фона */
+  outline: 4px solid green; /* Чёрная рамка */
+  margin: 50px;
+  display: inline-block;
+}
+.yellow{
+  background: yellow; /* Цвет фона */
+  outline: 4px solid red; /* Чёрная рамка */
+  margin: 50px;
+  display: inline-block;
+}
+.orange{
+  background: orange; /* Цвет фона */
+  outline: 4px solid red; /* Чёрная рамка */
+  margin: 50px;
+  display: inline-block;
+}
+.darkgreen{
+  background: darkgreen; /* Цвет фона */
+  outline: 4px solid green; /* Чёрная рамка */
+  margin: 50px;
+  display: inline-block;
+  position: relative;
+}
+.violet{
+  background: plum; /* Цвет фона */
+  outline: 4px solid red; /* Чёрная рамка */
+  margin: 50px;
+  display: inline-block;
+  position: relative;
+}
+.flag{
+  width: 60px;
+  height: 40px;
+  position: absolute;
+  top: -20px;
+  right: 20px;
+  background: red;
+  transform: rotate(270deg);
+}
+.text{
+  text-align: center;
+  margin-top: 50px;
+  color: red;
+  font-size: 30px;
+}
+.text1{
+  text-align: center;
+  color: yellow;
+  font-size: 20px;
+  margin-top: 10px;
+}
